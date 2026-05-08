@@ -9,6 +9,8 @@
 
 name: Publish Docker image
 
+# Touch this workflow on the fork default branch so GitHub Actions registers it.
+
 on:
   workflow_dispatch: # allows manual triggering
   schedule:
